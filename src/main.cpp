@@ -14,5 +14,19 @@ using namespace std;
 
 int main () {
 
+  const char PLUS = '+';
+  const char MINUS = '-';
+  const char MULTIPLY = '*';
+  const char DIVIDE = '/';
+  const char QUIT1 = 'Q';
+  const char QUIT2 = 'q';
+
+  char theOperator;
+  int operand1, operand2, result;
+
+  cout << "*****************" << endl;
+  cout << "Simple Calculator" << endl;
+  cout << "*****************" << endl;
+
   return EXIT_SUCCESS;
 }
